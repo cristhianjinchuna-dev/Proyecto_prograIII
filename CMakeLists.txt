@@ -20,6 +20,7 @@ add_library(circuit_escape_core
         include/circuit_escape/game_rules.hpp
         src/environment.cpp
         src/controllers.cpp
+        src/position.cpp
 )
 # Vinculamos FTXUI a la librería core
 target_link_libraries(circuit_escape_core PUBLIC ftxui::screen ftxui::dom ftxui::component)
