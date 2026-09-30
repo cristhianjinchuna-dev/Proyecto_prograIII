@@ -21,6 +21,7 @@ add_library(circuit_escape_core
         src/environment.cpp
         src/controllers.cpp
         src/position.cpp
+        src/cells.cpp
 )
 # Vinculamos FTXUI a la librería core
 target_link_libraries(circuit_escape_core PUBLIC ftxui::screen ftxui::dom ftxui::component)
